@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>keeru portfolio</title>
+    <style>
+       * {
+            margin:0;
+            padding:0;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+        }
+    body{
+            background-color: rgb(4, 4, 37);
+            color:white;
+        }
+    nav{
+        align-items: center;
+        display:flex;
+        justify-content: center;
+        background-color: rgb(2, 2, 26);
+        height:50px;
+    }
+    nav ul{
+        display:flex;
+        justify-content:center;
+    }
+    nav ul li{
+        list-style: none;
+        margin: 30px 50px 0px 0px;
+    }
+    nav ul li a:hover{
+        text-decoration: none;
+        color:burlywood;
+
+    }
+    a{
+        text-decoration: none;
+        color: aliceblue;
+    }
+
+
+    .left{
+        margin:3% 500px 50px 0px;
+        font-size: larger;
+    }
+    .firstsection{
+        display:flex;
+        justify-content: space-around;
+        margin:25px 200px 0px 0px;;
+        
+    }
+    .firstsection >div{
+        width:30%;
+        height:50%;
+        align-items:center;
+    }
+    .leftsection{
+        width:30%;
+        font-size: 1.8rem;
+        margin-top: 5%;
+    }
+    .rightsection{
+        width:30%;
+    }
+    #developer{
+        width:70%;
+        height:40%;
+        margin:10px 0px 0px 0px;
+    }
+    .black{
+        color: rgb(131, 85, 173);
+    }
+    #element{
+        color:rgb(219, 19, 59);
+    }
+    #top{
+        margin-top:50px;
+        margin-left:50px;
+        border:0;
+        background-color: aliceblue;
+        height:1px;  
+        width:80%;
+    }
+    .gray{
+        color:gray ;
+    }
+    .SecondSection{
+        margin-top: 3%;
+        margin-left: 3%;
+        margin-bottom:1%;
+        font-size: larger;
+    }
+    #experience{
+        font-weight: bolder;
+        margin-bottom: 0%;;
+    }
+    .SecondSection box {
+            background-color: aliceblue;
+            width: 50%;
+            height:1px;
+            margin:56px 0;
+            display:flex;
+    }
+    .SecondSection .vertical{
+            height:0px;
+            width:1px;
+            background-color: white;
+            margin:0 100px;
+    }
+    .SecondSection .vertical2{
+            height:100px;
+            width:1px;
+            background-color: white;
+            margin-top:0px;
+            margin-left:300px;
+    }
+    .SecondSection .vertical3{
+            height:100px;
+            width:1px;
+            background-color: white;
+            margin-top:0px;
+            margin-left:300px;
+    }
+    .SecondSection .vertical4{
+            height:100px;
+            width:1px;
+            background-color: white;
+            margin-top:0px;
+            margin-left:400px;
+    }
+    #secsection{
+        width:90%;
+        margin-left:50px;
+        margin-top:40px;
+    }
+    .img-top{
+        width:23px;
+        position:relative;
+        top: -125px;
+        left:-9px;
+    }
+    .vertical-title{
+        position:relative;
+        top:0px;
+        width:150px;
+        font-size:16px;
+    }
+    .vertical-desc{
+        position: relative;
+        top: 10px;
+        color:rgb(135, 132, 132);
+        width:150px;
+        font-size:14px;
+    }
+    .img-top2{
+        width:23px;
+        position:relative;
+        top: -310px;
+        left:-9px;
+    }
+    .img-top3{
+        width:23px;
+        position:relative;
+        top: -482px;
+        left:-9px;
+    }
+    .img-top4{
+        width:23px;
+        position:relative;
+        top: -635px;
+        left:-9px;
+    }
+    .SecondSection .vertical2{
+            height:0px;
+            width:1px;
+            background-color: white;      
+    }
+    .vertical-title2{
+        position:relative;
+        bottom:195px;
+        width:150px;
+        font-size:16px;
+    }
+    .vertical-desc2{
+        position: relative;
+        top: 10px;
+        color:rgb(135, 132, 132);
+        width:150px;
+        font-size:14px;
+    }
+    .SecondSection .vertical3{
+            height:0px;
+            width:1px;
+            background-color: white;      
+    }
+    .vertical-title3{
+        position:relative;
+        bottom:370px;
+        width:150px;
+        font-size:16px;
+    }
+    .vertical-desc3{
+        position: relative;
+        top: 10px;
+        color:rgb(135, 132, 132);
+        width:150px;
+        font-size:14px;
+    }
+    .SecondSection .vertical4{
+            height:0px;
+            width:1px;
+            background-color: white;      
+    }
+    .vertical-title4{
+        position:relative;
+        bottom:532px;
+        width:150px;
+        font-size:16px;
+    }
+    .vertical-desc4{
+        position: relative;
+        top: 10px;
+        color:rgb(135, 132, 132);
+        width:150px;
+        font-size:14px;
+    }
+     footer{
+        background-color: rgb(2, 2, 26);
+        margin-top: 500px;
+        height: 250px;
+    }
+    .footer{
+        display: flex;
+        padding:23px 122px;
+        justify-content:space-evenly;
+    } 
+    #foo-header{
+        margin-top:20px;
+    }
+    .Footer-second ul{
+    text-decoration:none;
+    list-style:none;
+    margin-top:20px;
+    }
+    .Footer-Third ul{
+    text-decoration:none;
+    list-style:none;
+    margin-top:20px;
+    }
+    .Footer-Fourth ul{
+    text-decoration:none;
+    list-style:none;
+    margin-top:20px;
+    }
+    footer .text-center{
+        text-align: center;
+        margin-top:40px;
+        color:rgb(113, 108, 108)
+    }
+    #developer{
+        border-radius: 100%;
+       padding:2px;
+       background-color:burlywood;
+       height:250px;
+       width:300px;   
+    }
+    .vl1{
+        border-left: 2px solid white;
+        height:100px;
+        margin-left:110px;
+    }
+    .vl2{
+        border-left: 2px solid white;
+        height:100px;
+        margin-left:27%;
+        margin-top:-100px;
+        margin-bottom:0px;
+    }
+    .vl3{
+        border-left: 2px solid white;
+        height:0px;
+        margin-left:48%;
+        margin-top:-100px;
+
+    }
+    .vl4{
+        border-left: 2px solid white;
+        height:100px;
+        margin-left:75%;
+        margin-top:-100px;
+        margin-bottom:0%;
+    }
+   
+    </style>
+</head>
+<body>
+        <header>
+        <nav>
+                <div class="left">Sai Keerthana Thamatam </div>
+            <div class="right">
+                <ul>
+                    <li><a href="html code.html">Home</li></a>
+                    <li><a href="About.html">About</li></a>
+                    <li><a href="skills andpro.html">Projects</li></a>
+                    <li><a href="Achievements.html">Achievements</li></a>
+                    <li><a href="Contact.html">contact Me</li></a>
+                    <li><a href="https://github.com/keerusai">Visit Github</li></a>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <header>
+    </header>
+
+    <main>
+        <section class="firstsection">
+        <div class="leftsection">
+            Hi, My Name is <span class="black">Sai Keerthana</span>
+           <div> And Iam a Full Stack Web Developer</div>
+           <span id="element"></span>
+        </div>
+        
+
+        <div class="rightsection">
+        <img id="developer" src="pp.jpg"/>
+        </div>
+        </section>
+
+        <hr id="secsection">
+        
+        <section class="SecondSection">
+            <span class="gray">What I have done So far</span><br><br>
+            
+            <h3>Education</h3>
+            <hr id="top">
+            <div class="box">
+
+                <div class="vl1"></div>
+              <div class="vl2"></div>  
+              <div class="vl3"></div>
+            <div class="vl4"></div> 
+
+            <div class="vertical">
+                <img class="img-top" src="mbu logo.png">
+                <div class="vertical-title">
+                   MCA (Master Of Computer Application) --(2022-2024)  
+                <div class="vertical-desc">
+                    I have done my Master Degree at  Mohan Babu University with CGPA(9.47)
+                </div></div> 
+
+            <div class="vertical2"> 
+                <img class="img-top2" src="s.v.r logo.png">
+                <div class="vertical-title2">
+                     BCA(Bachelor Of Computer Application) --(2019-2022) 
+                <div class="vertical-desc2">
+                    I have done my Bachelor degree at S.V.R Degree College  with CGPA(8.67)
+                </div></div>
+
+              
+            <div class="vertical3">
+                        <img class="img-top3" src="s.v.r logo.png">
+                        <div class="vertical-title3">
+                            PUC(Pre-University College) --(2017-2019)
+                        <div class="vertical-desc3">
+                            I have done my PUC at S.V.R PU and Degree College with CGPA(8.85)
+                        </div></div>
+    
+            <div class="vertical4">
+                            <img class="img-top4" src="s school.jpg">
+                            <div class="vertical-title4">
+                              SSLC(Secondary School Leaving Certificate)--(2017)
+                            <div class="vertical-desc4">
+                                I have done my SSLC at Shubhodini English Medium High School with CGPA(7.2)
+            </div></div></div></div></div></div>
+        </section>
+    </main> 
+    
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer','Web Designer',"Gardener","Slogger."],
+          typeSpeed: 50,
+        });
+        
+      </script>
+
+      <footer>
+        <main>
+        <div class="footer">
+            <div class="Footer-first">
+                <h3 id="foo-header" >Keerthana's portfolio</h3>
+            </div>
+            <div class="Footer-second">
+                <ul>
+                    <li><a href="html code.html">Home</li></a>
+                    <li><a href="About.html">About</li></a>
+                    <li><a href="skills andpro.html">Projects</li></a>
+                    <li><a href="Achievements.html">Achievements</li></a>
+                    <li><a href="Contact.html">contact Me</li></a>
+                </ul>
+            </div>
+            <div class="Footer-Third">
+                <ul>
+                    <li><a href="html code.html">Home</li></a>
+                    <li><a href="About.html">About</li></a>
+                    <li><a href="skills andpro.html">Projects</li></a>
+                    <li><a href="Achievements.html">Achievements</li></a>
+                    <li><a href="Contact.html">contact Me</li></a>
+                </ul>
+            </div>
+            <div class="Footer-Fourth">
+                <ul>
+                    <li><a href="html code.html">Home</li></a>
+                    <li><a href="About.html">About</li></a>
+                    <li><a href="skills andpro.html">Projects</li></a>
+                    <li><a href="Achievements.html">Achievements</li></a>
+                    <li><a href="Contact.html">contact Me</li></a>
+                </ul>
+            </div>
+        </div>
+        <div class="text-center">
+            www.keerthanasportfolio.com  | All rights reserved
+        </div>
+    </footer></main>
+</body>
+</html>
